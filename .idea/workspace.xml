@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="Added examples for collection filtering.">
-      <change afterPath="$PROJECT_DIR$/src/PlusMinusOperator.kt" afterDir="false" />
+    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="Added examples for collection filtering, plus and minus operator within collection.">
+      <change afterPath="$PROJECT_DIR$/src/CollectionGrouping.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionFiltering.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionFiltering.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
   "keyToString": {
     "Kotlin.AbstractAndInterfacesKt.executor": "Run",
     "Kotlin.CollectionFilteringKt.executor": "Run",
+    "Kotlin.CollectionGroupingKt.executor": "Run",
     "Kotlin.CollectionOperationsKt.executor": "Run",
     "Kotlin.CollectionStringRepresentationKt.executor": "Run",
     "Kotlin.PlusMinusOperatorKt.executor": "Run",
@@ -74,16 +74,16 @@
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.PlusMinusOperatorKt">
-    <configuration name="AbstractAndInterfacesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractAndInterfacesKt" />
+  <component name="RunManager" selected="Kotlin.CollectionGroupingKt">
+    <configuration name="CollectionFilteringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFilteringKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionFilteringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFilteringKt" />
+    <configuration name="CollectionGroupingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionGroupingKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CollectionGroupingKt" />
         <item itemvalue="Kotlin.PlusMinusOperatorKt" />
         <item itemvalue="Kotlin.CollectionFilteringKt" />
         <item itemvalue="Kotlin.CollectionStringRepresentationKt" />
         <item itemvalue="Kotlin.CollectionOperationsKt" />
-        <item itemvalue="Kotlin.AbstractAndInterfacesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -153,13 +153,22 @@
       <option name="project" value="LOCAL" />
       <updated>1736339665743</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added examples for collection filtering, plus and minus operator within collection.">
+      <option name="closed" value="true" />
+      <created>1736510252251</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736510252251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cloned" />
     <MESSAGE value="Added demo code for collection to string representation." />
     <MESSAGE value="Added examples for collection filtering." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examples for collection filtering." />
+    <MESSAGE value="Added examples for collection filtering, plus and minus operator within collection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added examples for collection filtering, plus and minus operator within collection." />
   </component>
 </project>
