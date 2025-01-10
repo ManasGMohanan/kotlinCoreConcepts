@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="Added demo code for collection to string representation.">
-      <change afterPath="$PROJECT_DIR$/src/CollectionFiltering.kt" afterDir="false" />
+    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="Added examples for collection filtering, plus and minus operator within collection.">
+      <change afterPath="$PROJECT_DIR$/src/CollectionGrouping.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,21 +28,31 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "ManasGMohanan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ManasGMohanan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ManasGMohanan/kotlinCoreConcepts.git",
-    "accountId": "111fd22c-cc60-46bc-bf28-9742e4106c43"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ManasGMohanan/kotlinCoreConcepts.git&quot;,
+    &quot;accountId&quot;: &quot;111fd22c-cc60-46bc-bf28-9742e4106c43&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;ManasGMohanan&quot;,
+    &quot;repository&quot;: &quot;kotlinCoreConcepts&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2rKg8ulKvMKeAhjzeMvxfSBFB9S" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -52,8 +62,10 @@
   "keyToString": {
     "Kotlin.AbstractAndInterfacesKt.executor": "Run",
     "Kotlin.CollectionFilteringKt.executor": "Run",
+    "Kotlin.CollectionGroupingKt.executor": "Run",
     "Kotlin.CollectionOperationsKt.executor": "Run",
     "Kotlin.CollectionStringRepresentationKt.executor": "Run",
+    "Kotlin.PlusMinusOperatorKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "development2",
@@ -62,16 +74,16 @@
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.CollectionFilteringKt">
-    <configuration name="AbstractAndInterfacesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractAndInterfacesKt" />
+  <component name="RunManager" selected="Kotlin.CollectionGroupingKt">
+    <configuration name="CollectionFilteringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionFilteringKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionFilteringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFilteringKt" />
+    <configuration name="CollectionGroupingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionGroupingKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,12 +103,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PlusMinusOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlusMinusOperatorKt" />
+      <module name="kotlinCoreConcepts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CollectionGroupingKt" />
+        <item itemvalue="Kotlin.PlusMinusOperatorKt" />
         <item itemvalue="Kotlin.CollectionFilteringKt" />
         <item itemvalue="Kotlin.CollectionStringRepresentationKt" />
         <item itemvalue="Kotlin.CollectionOperationsKt" />
-        <item itemvalue="Kotlin.AbstractAndInterfacesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -125,12 +145,30 @@
       <option name="project" value="LOCAL" />
       <updated>1736330516712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added examples for collection filtering.">
+      <option name="closed" value="true" />
+      <created>1736339665743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736339665743</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added examples for collection filtering, plus and minus operator within collection.">
+      <option name="closed" value="true" />
+      <created>1736510252251</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736510252251</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cloned" />
     <MESSAGE value="Added demo code for collection to string representation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added demo code for collection to string representation." />
+    <MESSAGE value="Added examples for collection filtering." />
+    <MESSAGE value="Added examples for collection filtering, plus and minus operator within collection." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added examples for collection filtering, plus and minus operator within collection." />
   </component>
 </project>
