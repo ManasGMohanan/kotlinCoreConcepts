@@ -32,5 +32,13 @@ fun main() {
             keySelector = { it.first().uppercase() },
             valueTransform = { it.length })
     )
+
+    //Flatten
+    val nestedList = listOf(
+        listOf(1, 2, 3),
+        listOf(4, 5, 6),
+        listOf(7, 8, 9)
+    )
+    println(nestedList.flatten()) // Combines all nested lists into a single list
 }
 

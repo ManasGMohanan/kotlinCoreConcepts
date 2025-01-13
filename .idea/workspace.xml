@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="Added examples for collection filtering, plus and minus operator within collection.">
-      <change afterPath="$PROJECT_DIR$/src/CollectionGrouping.kt" afterDir="false" />
+    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="changed the readme text">
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollectionOperations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionOperations.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +57,7 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2rKg8ulKvMKeAhjzeMvxfSBFB9S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,13 +72,18 @@
     "Kotlin.PlusMinusOperatorKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "development2",
+    "git-widget-placeholder": "development",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/panasa202user/IdeaProjects/kotlinCoreConcepts",
     "settings.editor.selected.configurable": "inlay.hints"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.CollectionGroupingKt">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manas\IdeaProjects\kotlinCoreConcepts\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.CollectionOperationsKt">
     <configuration name="CollectionFilteringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionFilteringKt" />
       <module name="kotlinCoreConcepts" />
@@ -112,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CollectionOperationsKt" />
         <item itemvalue="Kotlin.CollectionGroupingKt" />
         <item itemvalue="Kotlin.PlusMinusOperatorKt" />
         <item itemvalue="Kotlin.CollectionFilteringKt" />
         <item itemvalue="Kotlin.CollectionStringRepresentationKt" />
-        <item itemvalue="Kotlin.CollectionOperationsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +178,7 @@
     <MESSAGE value="Added demo code for collection to string representation." />
     <MESSAGE value="Added examples for collection filtering." />
     <MESSAGE value="Added examples for collection filtering, plus and minus operator within collection." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added examples for collection filtering, plus and minus operator within collection." />
+    <MESSAGE value="changed the readme text" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed the readme text" />
   </component>
 </project>
