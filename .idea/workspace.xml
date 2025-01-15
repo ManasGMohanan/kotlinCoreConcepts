@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="changed the readme text">
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionAggregateOperations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionOrdering.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionPartRetrieval.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CollectionSingleElementRetrieval.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CollectionOperations.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollectionOperations.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +65,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.AbstractAndInterfacesKt.executor": "Run",
+    "Kotlin.AggregateOperationsKt.executor": "Run",
     "Kotlin.CollectionFilteringKt.executor": "Run",
     "Kotlin.CollectionGroupingKt.executor": "Run",
     "Kotlin.CollectionOperationsKt.executor": "Run",
+    "Kotlin.CollectionOrderingKt.executor": "Run",
+    "Kotlin.CollectionPartRetrievalKt.executor": "Run",
+    "Kotlin.CollectionSingleElementRetrievalKt.executor": "Run",
     "Kotlin.CollectionStringRepresentationKt.executor": "Run",
     "Kotlin.PlusMinusOperatorKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "development",
+    "git-widget-placeholder": "development2",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/panasa202user/IdeaProjects/kotlinCoreConcepts",
     "settings.editor.selected.configurable": "inlay.hints"
@@ -83,9 +87,9 @@
       <recent name="C:\Users\manas\IdeaProjects\kotlinCoreConcepts\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CollectionOperationsKt">
-    <configuration name="CollectionFilteringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionFilteringKt" />
+  <component name="RunManager" selected="Kotlin.CollectionOrderingKt">
+    <configuration name="CollectionAggregateOperationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionAggregateOperationsKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,22 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionOperationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionOperationsKt" />
+    <configuration name="CollectionOrderingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionOrderingKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionStringRepresentationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionStringRepresentationKt" />
+    <configuration name="CollectionPartRetrievalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionPartRetrievalKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusMinusOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlusMinusOperatorKt" />
+    <configuration name="CollectionSingleElementRetrievalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CollectionSingleElementRetrievalKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.CollectionOperationsKt" />
+        <item itemvalue="Kotlin.CollectionOrderingKt" />
+        <item itemvalue="Kotlin.CollectionAggregateOperationsKt" />
+        <item itemvalue="Kotlin.CollectionSingleElementRetrievalKt" />
+        <item itemvalue="Kotlin.CollectionPartRetrievalKt" />
         <item itemvalue="Kotlin.CollectionGroupingKt" />
-        <item itemvalue="Kotlin.PlusMinusOperatorKt" />
-        <item itemvalue="Kotlin.CollectionFilteringKt" />
-        <item itemvalue="Kotlin.CollectionStringRepresentationKt" />
       </list>
     </recent_temporary>
   </component>
