@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="changed the readme text">
-      <change afterPath="$PROJECT_DIR$/src/CollectionAggregateOperations.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionOrdering.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionPartRetrieval.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CollectionSingleElementRetrieval.kt" afterDir="false" />
+    <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="collection ordering,aggregate,part retrieval, single element retrieval">
+      <change afterPath="$PROJECT_DIR$/src/Generics.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +70,7 @@
     "Kotlin.CollectionPartRetrievalKt.executor": "Run",
     "Kotlin.CollectionSingleElementRetrievalKt.executor": "Run",
     "Kotlin.CollectionStringRepresentationKt.executor": "Run",
+    "Kotlin.GenericsKt.executor": "Run",
     "Kotlin.PlusMinusOperatorKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -87,16 +85,9 @@
       <recent name="C:\Users\manas\IdeaProjects\kotlinCoreConcepts\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CollectionOrderingKt">
+  <component name="RunManager" selected="Kotlin.GenericsKt">
     <configuration name="CollectionAggregateOperationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionAggregateOperationsKt" />
-      <module name="kotlinCoreConcepts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionGroupingKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionGroupingKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,13 +114,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericsKt" />
+      <module name="kotlinCoreConcepts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GenericsKt" />
         <item itemvalue="Kotlin.CollectionOrderingKt" />
         <item itemvalue="Kotlin.CollectionAggregateOperationsKt" />
         <item itemvalue="Kotlin.CollectionSingleElementRetrievalKt" />
         <item itemvalue="Kotlin.CollectionPartRetrievalKt" />
-        <item itemvalue="Kotlin.CollectionGroupingKt" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736510252251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="collection ordering,aggregate,part retrieval, single element retrieval">
+      <option name="closed" value="true" />
+      <created>1736944687553</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736944687553</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,6 +189,7 @@
     <MESSAGE value="Added examples for collection filtering." />
     <MESSAGE value="Added examples for collection filtering, plus and minus operator within collection." />
     <MESSAGE value="changed the readme text" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the readme text" />
+    <MESSAGE value="collection ordering,aggregate,part retrieval, single element retrieval" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection ordering,aggregate,part retrieval, single element retrieval" />
   </component>
 </project>
