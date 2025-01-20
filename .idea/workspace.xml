@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="94a3d35e-d3f9-489c-a694-fa488a742746" name="Changes" comment="collection ordering,aggregate,part retrieval, single element retrieval">
-      <change afterPath="$PROJECT_DIR$/src/Generics.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ExtensionFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HigherOrder&amp;Lambda&amp;InlineFunctions.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +71,7 @@
     "Kotlin.CollectionPartRetrievalKt.executor": "Run",
     "Kotlin.CollectionSingleElementRetrievalKt.executor": "Run",
     "Kotlin.CollectionStringRepresentationKt.executor": "Run",
+    "Kotlin.ExtensionFunctionKt.executor": "Run",
     "Kotlin.GenericsKt.executor": "Run",
     "Kotlin.PlusMinusOperatorKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -85,7 +87,7 @@
       <recent name="C:\Users\manas\IdeaProjects\kotlinCoreConcepts\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GenericsKt">
+  <component name="RunManager" selected="Kotlin.HigherOrder_Lambda_InlineFunctionsKt">
     <configuration name="CollectionAggregateOperationsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionAggregateOperationsKt" />
       <module name="kotlinCoreConcepts" />
@@ -100,15 +102,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionPartRetrievalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionPartRetrievalKt" />
-      <module name="kotlinCoreConcepts" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionSingleElementRetrievalKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionSingleElementRetrievalKt" />
+    <configuration name="ExtensionFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExtensionFunctionKt" />
       <module name="kotlinCoreConcepts" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,13 +116,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HigherOrder_Lambda_InlineFunctionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HigherOrder_Lambda_InlineFunctionsKt" />
+      <module name="kotlinCoreConcepts" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.HigherOrder_Lambda_InlineFunctionsKt" />
+        <item itemvalue="Kotlin.ExtensionFunctionKt" />
         <item itemvalue="Kotlin.GenericsKt" />
         <item itemvalue="Kotlin.CollectionOrderingKt" />
         <item itemvalue="Kotlin.CollectionAggregateOperationsKt" />
-        <item itemvalue="Kotlin.CollectionSingleElementRetrievalKt" />
-        <item itemvalue="Kotlin.CollectionPartRetrievalKt" />
       </list>
     </recent_temporary>
   </component>
